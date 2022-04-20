@@ -1,6 +1,10 @@
 body {
     font: 14px "Century Gothic", Futura, sans-serif;
     margin: 20px;
+    background-image: url("tictactoe.jpg");
+    background-size: cover;
+    display: grid;
+    place-items: center;
   }
   
   ol, ul {
@@ -21,15 +25,15 @@ body {
     background: #fff;
     border: 1px solid #999;
     float: left;
-    font-size: 24px;
+    font-size: 114px;
     font-weight: bold;
-    line-height: 34px;
-    height: 34px;
+    line-height: 124px;
+    height: 124px;
     margin-right: -1px;
     margin-top: -1px;
     padding: 0;
     text-align: center;
-    width: 34px;
+    width: 124px;
   }
   
   .square:focus {
